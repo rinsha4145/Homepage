@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import fram1 from "../../public/frame1.svg";
 import fram2 from "../../public/frame2.svg";    
