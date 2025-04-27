@@ -1,4 +1,3 @@
-"use client"
 import About from '@/components/About'
 import Education from '@/components/Education'
 import TutoringFAQ from '@/components/Faq'
