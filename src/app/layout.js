@@ -1,5 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Bricolage_Grotesque } from 'next/font/google'
+
+const bricolage = Bricolage_Grotesque({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700'], // choose desired weights
+})
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
