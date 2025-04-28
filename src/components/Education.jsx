@@ -52,7 +52,7 @@ const Education = () => {
   };
   
   return (
-    <div className=" mx-20 py-12 px-10">
+    <div className=" mx-20 py-12">
       {/* Programs Section */}
       <div className="mb-20">
         <div className="flex justify-between items-center mb-8">
@@ -69,12 +69,12 @@ const Education = () => {
         
         {/* Programs Slider */}
         <div className="relative">
-          <div className="flex ">
+          <div className=" ">
             <div className="flex gap-6 transition-transform duration-300">
               {visiblePrograms().map((program) => (
-                <div key={program.id} className="flex-none w-full md:w-1/3 bg-[#FFF3E1] rounded-lg overflow-hidden">
+                <div key={program.id} className="flex-none w-full md:w-1/3 bg-[#FFF3E1] relative rounded-lg">
                   <div className="flex h-full">
-                    <div className="p-6 flex flex-col justify-center">
+                    <div className="p-4 flex flex-col justify-center">
                       <h3 className="text-xl font-bold text-red-800 mb-2">{program.title}</h3>
                       <p className="text-gray-700 w-70 mb-4">{program.description}</p>
                     
@@ -89,7 +89,8 @@ const Education = () => {
 
 </button>
                     </div>
-                    <div className="flex items-center ">
+                    <div className=" absolute right-10 top-[-20%] ">
+                        
                       <Image width={20} height={20} src={program.image} alt={program.title} className="h-50 w-50 " />
                     </div>
                   </div>
