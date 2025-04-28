@@ -33,7 +33,7 @@ export default function TutoringFAQ() {
   };
   
   return (
-    <div className="max-w-2xl mx-auto p-6 bg-gray-50">
+    <div className=" mx-auto p-6 bg-gray-50">
       <h1 className="text-2xl font-medium text-center text-gray-700 mb-8">
         Frequently asked Questions
       </h1>
